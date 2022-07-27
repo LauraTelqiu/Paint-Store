@@ -39,6 +39,8 @@ header {
   align-items: center;
   padding: .5rem 3.75rem;
   background-color: #ff8000;
+
+
 }
 
 header .logo-small {
@@ -50,9 +52,17 @@ header .logo-big {
   flex-grow: 1;
 }
 
+nav {
+
+  position: sticky;
+  top: 0;
+}
+
 nav li {
   display: inline;
   padding-right: 2rem;
+
+
 }
 
 nav li:last-child {
